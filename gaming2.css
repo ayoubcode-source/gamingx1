@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+body{
+    height: 200vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.home-section{
+    height: 27rem;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px ;
+    margin-bottom: 13rem;
+}
+
+.title-shop-section{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.title-shop-section h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.categories-btn{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.categories-btn .category,.all{
+    font-size: 16px;
+    padding: 7px 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    background-color: rgb(213, 213, 213);
+    color: black;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.categories-btn .all{
+    background-color: #ff5656;
+    color: white;
+    outline: none;
+}
+
+.categories-btn .category:hover{
+    color: #ff5656;
+}
+
+
+
+
+
+
+
+
+.ourshop{
+    padding: 0 70px;
+    height: fit-content ;
+    position: relative;
+}
+
+.ourshop #gameshop-card{
+     column-gap: 30px;
+    row-gap: 20px; 
+    margin-bottom: 30px ;
+    justify-content: start;
+    
+}
+
+
+
+.ourshop .card{
+    width: 16.615rem;
+    height: 15rem;
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    border: none;
+    padding-bottom: 30px;
+    transition: 0.5s;
+    cursor: default;
+    transition: 0.2s;
+}
+
+.ourshop .card:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0,0.5);
+    cursor: pointer;
+}
+
+
+#gameshop-card .card img{
+    height: 11rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+#gameshop-card .card p{
+    font-size: 11px;
+    color: gray;
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+}
+#gameshop-card .card h5 {
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+#gameshop-card #card-content{
+    margin-top: 10px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#card-content i{
+    font-size: 15px;
+    color: white;
+    background-color: #ff5656;
+    width: 30px;
+    height:30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px ;
+    transition: 0.2s;
+
+}
+
+#gameshop-card .card .past-price{
+    font-size: 10px;
+    text-decoration: line-through;
+    color: rgb(255, 255, 255,0.8);
+    margin: 0;
+    padding: 0;
+}
+#gameshop-card .card .solde-price{
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#gameshop-card .card .game-price{
+    padding: 4px 11px;
+    background-color: rgb(18, 146, 252);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+#gameshop-card .card .game-price:hover{
+    background-color: #0065b8;
+}
+
+#gameprice p{
+    font-weight: 600;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#card-content i:hover{
+    scale: 1.2;
+    background-color: #ff3939;
+}
+
+
+
+.ourshop a{
+    background-color: #ff5656;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+
+.hidden{
+    display: none !important;
+}
+
+
+.btn-toolbar{
+    width: 100%;
+}
+
+#btn-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#btn-grp{
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.pagination-div{
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.pagination button {
+    background-color: rgb(195, 195, 195);
+    color: #0065b8;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content inside the li */
+    width: 50px;
+    height: 50px; /* Let the width adjust according to the content */
+    padding: 10px; /* Add padding inside the li */
+    margin: 0 5px; /* Adjust the margin between the buttons */
+    border-radius: 50px; /* Optional: to round the corners */
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.pagination button{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.the-end{
+    height: 10rem;
+    background-color: #0065b8;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+
+

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.product-details{
+    background-color: rgb(204, 204, 204);
+    height: 43rem;
+    width: 100%;
+    border-radius: 100px;
+    padding: 0px 70px;
+    display: flex;
+    align-items: center;
+    display: block;
+    margin-bottom: 100px;
+}
+
+#product-row{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+#product-img img{
+    height: 27rem;
+    width: 25rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    
+}
+
+#product-title h2{
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    
+
+.product-price {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: end;  /* Aligns both elements vertically */
+    gap: 10px;  /* Adds space between the original and discounted prices */
+}
+
+.original-price {
+    color: #8b8b8b;  /* Light gray color for the original price */
+    text-decoration: line-through;  /* Strikes through the original price */
+    margin: 0;
+    font-weight: 400;  /* Resets any default margin */
+}
+
+.discounted-price {
+    color: #1292fc;  /* Blue color for the discounted price */
+    font-weight: bold;  /* Makes the discounted price bold */
+    margin: 0;  /* Resets any default margin */
+}
+
+.qty{
+    background-color: ghostwhite;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.btn-cart{
+    width: 170px;
+    height: 50px;
+    background-color: #ff5656;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+
+/* remove the up down arrows in the input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-cart:hover{
+    background-color: #ff3939;
+    cursor: pointer;
+
+}
+
+.form-inline{
+    margin-top: 50px;
+}
+
+.game-detail{
+    margin-top: 30px;
+}
+
+.game-detail p{
+    color: gray;
+
+}

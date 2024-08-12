@@ -1,0 +1,122 @@
+
+.contact-us{
+    border-radius:100px ;
+    width: 100%;
+    height: 45rem;
+    background-color: #bae0ff;
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    margin-bottom: 100px;
+}
+
+#contact-us{
+    margin-top: 40px;
+    width: 27rem;
+    padding: 50px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border: 50px;
+    border-radius: 20px;
+}
+
+#contact-us h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff5656;
+}
+
+#contact-us h1{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#contact-us .lorem{
+    margin-bottom: 40px;
+    color: rgb(90, 90, 90);
+}
+
+#contact-us .address{
+    margin-bottom: 20px;
+}
+#contact-us .phone{
+    margin-bottom: 20px;
+}
+#contact-us .email{
+    margin: 0;
+    padding: 0;
+}
+
+#contact-us p{
+    color: rgb(170, 170, 170);
+}
+
+
+iframe{
+    width: 100%;
+    height: 17rem;
+    border-radius: 20px;
+}
+
+.contact-us .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us form{
+    margin-top: 60px;
+}
+
+.contact-us .form-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+
+.contact-us input{
+    padding: 0 30px;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 15rem;
+    display: inline;
+    margin-bottom: 30px;
+    transition: 0.2s;
+
+}
+
+.contact-us #message{
+    width: 100%;
+    padding: 20px 20px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.contact-us #message:focus{
+    outline: 2px solid #0074d3;
+}
+.contact-us input:focus{
+    outline: 2px solid #0074d3;
+}
+
+.contact-us form .btn{
+    background-color: #ff5656;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.contact-us form .btn:hover{
+    background-color: #ff3939;
+}

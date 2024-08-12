@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.home-section{
+    background:linear-gradient(180deg, #0062b1, #1f9aff);
+    height: 48rem;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px ;
+    margin-bottom: 13rem;
+}
+
+.navbar{
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.nav-elements{
+    color: white;
+}
+
+
+
+.nav-elements .btn{
+    font-size: 16px;
+    padding: 7px 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    background-color: #ff5656;
+    color: white;
+}
+
+.nav-elements .btn:hover{
+    background-color: #ff3939;
+}
+
+#home-nav1{
+    font-size: 16px;
+    padding: 7px 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    background-color: #0074d3;
+    color: white;
+}
+
+
+#home-nav{
+    font-size: 16px;
+    padding: 7px 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s;
+}
+
+#home-nav:hover{
+    background-color: #0074d3;
+}
+
+
+#home-row{
+    height: 25rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 50px;
+    color: white;
+
+}
+
+#left-col p{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#left-col h6{
+    margin-bottom: 15px;
+}
+
+#left-col h1{
+    font-weight: bold;
+}
+
+
+.search-section{
+    position: relative;
+    width: 20rem;
+    height: 35px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.search-section:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+#left-col .btn{
+    position: absolute;
+    top:0px ;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    height: 35px;
+    width: 115px;
+    background-color: #ff5656;
+    border-radius: 50px;
+}
+
+#left-col .btn:hover{
+    background-color: #ff3939;
+}
+
+
+
+#search-inp{
+    font-size: 12px;
+    height: 35px;
+    border-radius: 100px;
+    width: 20rem;
+    padding: 0 15px;
+    padding-right: 2.5rem;
+    outline: none;
+    border: none;
+
+}
+
+
+
+
+
+.right-col img{
+    width: 20rem;
+    height: 23rem;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    transition: 0.4s;
+}
+
+.right-col img:hover{
+    box-shadow: 0px 0px 60px 10px rgba(255, 255, 255, 0.7);
+}
+
+.right-col .solde{
+    border-radius: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -2.3rem;
+    left: -0.4rem;
+    background-color: #ff5656;
+}
+
+
+.right-col .price{
+    z-index: 1;
+    background-color: #1f9aff;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 10px;
+    position: absolute;
+    top: 18px;
+    left: 17.2rem;
+    
+
+}
+
+
+
+.home-card{
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    margin-top: 5rem;
+}
+
+
+
+
+.home-card .card{
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3) ;
+    border: none;
+    border-radius: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 16rem;
+    height: 10rem;
+    transition: 0.2s;
+}
+
+.home-card .card:hover{
+    scale: 1.03;
+}
+
+svg{
+    color: #1292fc;
+}
+
+
+
+
+
+.game-shop-card .card .game-price{
+    padding: 4px 11px;
+    background-color: #1292fc;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+.game-shop-card .card .game-price:hover{
+    background-color: #0065b8;
+}
+
+.game-price p{
+    font-weight: 600;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+
+.game-shop-card .card .past-price{
+    font-size: 10px;
+    text-decoration: line-through;
+    color: rgb(255, 255, 255,0.8);
+    margin: 0;
+    padding: 0;
+}
+.game-shop-card .card .solde-price{
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.card i{
+    font-size: 72px;
+    color: rgb(31, 154, 255);
+}
+
+.home-card .card h6{
+    color: black;
+}
+
+
+
+
+
+.games-shop-section {
+    padding: 0 70px;
+}
+
+#title-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#title-row p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #ff5656;
+    margin-bottom: 10px;
+}
+
+#title-row h2{
+    font-weight: bold;
+}
+
+
+#col-2{
+    display: flex;
+    justify-content: end;
+}
+
+#title-row .btn{
+    justify-content: end;
+    font-size: 13px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: #ff5656;
+    color: white;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#title-row .btn:hover{
+    background-color: #ff3939;
+}
+
+
+
+.game-shop-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.game-shop-card .card{
+    width: 16rem;
+    height: 15rem;
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    border: none;
+    padding-bottom: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.game-shop-card .card:hover{
+    box-shadow: 0px 0px 10px 0px rgb(18, 146, 252,0.7);
+}
+
+
+.game-shop-card .card img{
+    height: 11rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.game-shop-card .card .img{
+    height:10rem ;
+}
+
+.game-shop-card .card .img img{
+    width: 100%;
+}
+
+
+
+.game-shop-card .card p{
+    font-size: 11px;
+    color: gray;
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+}
+.game-shop-card .card h5 {
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+.game-shop-card #card-content{
+    margin-top: 10px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#card-content i{
+    font-size: 15px;
+    color: white;
+    background-color: #ff5656;
+    width: 30px;
+    height:30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px ;
+    transition: 0.2s;
+
+}
+
+
+
+#card-content i:hover{
+    scale: 1.2;
+    background-color: #ff3939;
+}
+
+.section2{
+    width: 100%;
+    margin-top: 200px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 150px;
+    padding: 100px 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.section2 #title-row{
+    margin-bottom: 60px;
+    
+}
+
+
+
+.section2 .card{
+    height: 18rem;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.section2 .card:hover{
+    box-shadow: 0px 0px 10px 0px rgb(18, 146, 252,0.7);
+}
+
+
+
+.section2 .card h5 {
+    font-size: 12px;
+    color:gray;
+}
+
+.section2 .card h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section2 img{
+    border-radius: 20px;
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.section2 a{
+    background-color: #ff5656;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 15px;
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+}
+
+.section2 a:hover{
+    color: white;
+} 
+
+.section3{
+    margin-top: 100px;
+    width: 100%;
+    height: 40rem;
+    text-align: center;
+    padding: 0 70px;
+}
+
+.section3 #title3-row{
+    margin-bottom: 70px;
+}
+
+
+
+.section3 #title3-row h6{
+    font-weight: 600;
+    color: #ff5656;
+    margin-bottom: 10px;
+}
+
+.section3 #title3-row h1{
+    font-weight: bold;
+}
+
+#Categories-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3 .card{
+    border-radius: 20px;
+    width: 13.5rem;
+    height: 17rem;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.section3 .card .card-header{
+    background: transparent;
+    font-weight: bold;
+    background-color: #ff3939;
+    color: white;
+    transition: 0.2s;
+}
+
+.section3 .card img{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    object-position: top;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.6);
+
+}
+
+
+.last-section{
+    width: 100%;
+    margin-bottom: 20rem;
+}
+
+.last-section .container1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.last-section .card{
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    padding: 70px;
+}
+
+.last-section .card{
+    width: 27rem;
+    background-color: rgb(225, 225, 225);
+    border: none;
+}
+
+.last-section .card h6{
+    font-weight: bold;
+    color: #ff5656;
+    margin-bottom: 20px;
+}
+
+.last-section .card h1{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.last-section .card h1 span{
+    color: #1292fc;
+}
+
+.last-section #left-card #btn{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff5656;
+    text-align: start;
+    width: 7.5rem;
+    height: 3rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+.last-section #left-card #btn:hover{
+    background-color: #ff3939;
+}
+
+.last-section .container1 #right-card{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    z-index: 1;
+
+}
+
+.last-section .container1 #left-card{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    z-index: 1;
+
+}
+
+.last-section img{
+    height: 30rem;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.last-section .search-section #search-inp{
+    height: 3rem;
+
+}
+
+.last-section .search-section{
+    position: relative;
+}
+
+
+.last-section .search-section:hover{
+    box-shadow: none;
+}
+
+.last-section .search-section .btn{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff5656;
+    width: 7.5rem;
+    height: 3rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+}
+
+.last-section .search-section .btn:hover{
+    background-color: #ff3939;
+}
+
+.the-end{
+    height: 10rem;
+    background-color: #0065b8;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+
+
+ 
+
+
